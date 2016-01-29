@@ -1,0 +1,28 @@
+body{
+	margin: 0;
+	padding: 50px;
+}
+#da{
+	width: 1000px;
+	height: 500px;
+	margin: 50px auto;
+	-webkit-transform-style:preserve-3d;
+	perspective:800px;
+	position: relative;
+}
+.xiao{
+	width: 400px;
+	height: 300px;
+	background:rgba(0,0,0,0.8);
+	box-shadow: 1px 1px 30px black ,-1px -1px 30px black,1px -1px 30px black,-1px 1px 30px black; 
+	font-size: 100px;
+	line-height: 300px;
+	text-align: center;
+	-webkit-transition:all 1s ease;
+	color: white;	
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	top: 50%;
+	margin-top: -150px;
+}
